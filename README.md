@@ -1,29 +1,54 @@
 
-# 微信Hook
+# PC微信3.7.0.29接口/New Current
+## 3.7.0.29 QQ群/QQ Group 887615198
 
-## 支持PC微信3.6.0.18版本
+## 下载地址/Download
+https://wws.lanzoum.com/b02ja029i
+
+密码/Password:1234
+
+全部功能支持PC微信版本/All Function Support Version 3.7.0.29
+
+部分功能支持PC微信版本/Some Function Support Version 3.6.0.18
+
+## 使用方法/How to use：
+下载msimg32.dll后将dll当道微信安装目录下。比如我这里是
+
+D:\Program Files (x86)\WeChat3.7.0.29
+
+重启微信后使用json方式调用即可。
+
+
+## 新版本 接口 使用文档/Docs：
+https://www.showdoc.com.cn/1967579757595791/8929096202824749
+</br>
+</br>
+</br>
+
+# 历史版本/History
+## 老版本支持PC微信3.6.0.18版本/Support Vertion 3.6.0.18
 Support PC WeChat 3.6.0.18 Version
 
-# qq群:927825838
-qq group number：927825838
+## 3.6.0.18 QQ群/QQ Group:927825838
 
 
-# 微信下载地址：
+## 微信下载地址/Download：
 Download WeChat(Select Windows platfrom): https://pc.weixin.qq.com/
 
-# 如何下载历史版本微信
-How to download history wechat version
-
-# 如何使用
-How to start
-
-下载E语言5.8版本。打开编译即可。
+## 如何下载历史版本微信/How to download history wechat version
 
 后面的 3.3.0.104 版本号输入你想要下载的版本号即可
 
-https://dldir1.qq.com/weixin/Windows/WeChat3.3.0.104.exe
+URL:https://dldir1.qq.com/weixin/Windows/WeChat3.3.0.104.exe
 
-# Function List:
+## 如何使用/How to use
+How to start
+
+下载E语言5.8版本。打开编译即可。
+download E5.8.exe install and bulid this *.e file.
+
+
+## 功能清单/Function List:
 
 0.Forward Any XML Message
 
@@ -73,4 +98,36 @@ https://dldir1.qq.com/weixin/Windows/WeChat3.3.0.104.exe
 
 23.Send Chat Room Message of at type
 
+24.remote call getA8key function get ticket=[xx] & exportkey=[xx] & pass_ticket=[xx] parameter info
+
+25.Bypass time limit for download pictures  
+
+26.Automatic call collection funtion
+
+
+
+# 致谢 & 参考
+
+提供了微信call寻找思路与教程：
+https://github.com/hedada-hc/pc_wechat_hook
+
+数据库备份部分代码引用了 zmrbak 老师的代码，在此表示感谢：
+https://github.com/zmrbak/PcWeChatHooK
+
+Web微信协议的部分根据这个视频思路写的，感谢乐易论坛的讲师 揰掵佲 做的教程:  
+https://www.bilibili.com/video/BV1WJ411i7Bb?spm_id_from=333.337.search-card.all.click
+
+还有那些在我找call过程中给我提供思路、源码、偏移的所有人，诚挚感谢你们的支持与帮助！
+
+# 致敬
+
+https://github.com/littlecodersh/ItChat
+
+https://github.com/wechaty/wechaty
+
+
+
+## =========================================
+# End
+PS: added array of bytes scan tool & technology code
 
